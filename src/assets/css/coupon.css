@@ -1,0 +1,222 @@
+.coupon-container {
+  margin-top: 2rem;
+}
+
+/*  Section1  */
+
+.coupon-container .section-1 {
+  margin: 0 3.2rem;
+  /* width: 100%; */
+  height: 5.5rem;
+  background-color: bisque;
+  display: flex;
+  letter-spacing: 2px;
+}
+
+.left sup {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.section-1 .left {
+  width: 62%;
+  background-color: #ef4444;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  position: relative;
+}
+/* creating cricle top and bottom */
+
+.circles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: -20px;
+  height: 8rem;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+.circles .circle {
+  height: 2.5rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.section-1 .right {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  background-color: var(--black);
+  color: var(--white);
+  text-transform: capitalize;
+  position: relative;
+}
+
+.right sup {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.section-1 .right h4 {
+  font-weight: 500;
+}
+
+.section-1 .right .break {
+  display: flex;
+}
+
+.section-1 .right figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 .right figure img {
+  width: 50px;
+}
+.section-1 .right figure span {
+  font-size: 0.7rem;
+}
+
+.section-1 .right .cuts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 3px;
+  right: -7px;
+  height: 5.1rem;
+  width: fit-content;
+}
+
+.right .cuts .cut {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 2px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+/*  Section2  */
+
+.coupon-container .section-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-2 figure img {
+  position: relative;
+  margin: 0.5rem 0 2rem;
+  height: 25rem;
+  width: 100%;
+  z-index: 3;
+}
+
+/* Section3 */
+
+.coupon-container .section-3 {
+  margin: 0 2rem 2rem;
+}
+
+.section-3 h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.coupons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.coupons .coupon {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 44%;
+  background: var(--coupon-gradient);
+  padding: 0 2rem;
+  color: var(--white);
+  text-transform: uppercase;
+  gap: 10px;
+  position: relative;
+}
+
+.coupon .title,.code{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.coupon .title {
+	height: 100%; 
+	background-image: 
+	  linear-gradient(
+		to bottom, 
+		var(--white) 0%, 
+		var(--white) 50%, 
+		transparent 50%, 
+		transparent 100%
+	  );
+	background-position: right;
+	background-size: 2px 10px; 
+	background-repeat: repeat-y;
+	padding-right: 45px;
+}
+
+.coupon .title h2 {
+  font-size: 1.9rem;
+}
+.coupon .title h4 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.coupon .code {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.code h4:nth-child(1) {
+  font-weight: 500;
+}
+.code h4:nth-child(2) {
+  background-color: var(--black);
+  padding: 0 5px;
+}
+
+.coupon .cuts{
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 3px;
+  right: -7px;
+  height: 6.6rem;
+  width: fit-content;
+}
+
+.coupon .cuts .cut {
+	height: 0.7rem;
+	width: 0.7rem;
+	margin: 2px;
+	background-color: var(--white);
+  }
+.coupon .cuts.left{
+	left: -7px;
+
+}
