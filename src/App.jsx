@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React,{useState} from "react";
+import Navbar from "./Components/Navbar.jsx";
 const App = () => {
+  const [inputBg, setInputBg] = useState(false);
   return (
-    <div>App</div>
-  )
-}
+    <main onClick={() => setInputBg(false)}>
+      <Navbar input={inputBg} setInput={setInputBg}/>
+    </main>
+  );
+};
 
-export default App
+export default App;

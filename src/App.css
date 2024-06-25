@@ -1,3 +1,62 @@
-html{
-  background-color: bisque;
+/* ------------------------ *\
+  font
+\* ------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* ------------------------ *\ 
+   common style
+/* ------------------------ */
+
+*,::after,::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+a{text-decoration: none;
+color: var(--black);
+}
+
+li{list-style: none;}
+
+html{
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;  /*To use the rem. I gave the font size to parent element  */
+}
+
+/* ------------------------ *\ 
+   root style
+/* ------------------------ */
+
+:root{
+  /* color */
+  --primary-red : #ef4444;
+  --black : #000000;
+  --white : #ffffff;
+  
+  /* gradient */
+  --coupon-gradient: linear-gradient(#f97316,#fb923c,#f97316) ;
+
+  /* transition */
+  --transition-1: .5s ease-in;
+  --transition-2: .5s ease-in-out;
+  --transition-3: .5s linear;
+}
+
+main{
+  z-index: 0;
+}
+
+/* ------------------------ *\ 
+   responsive style
+/* ------------------------ */
+
+/* @media (min-width:1250px){
+  main{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+  }
+} */
