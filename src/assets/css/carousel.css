@@ -1,0 +1,116 @@
+.carousel-container {
+  margin-top: 4rem;
+}
+.carousel-container h1,
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.carousel-container h1 span {
+  display: inline-block;
+  background-color: #fb923c;
+  font-weight: 600;
+  font-size: 3rem;
+  padding: 0 15px;
+  border-radius: 5px;
+  color: var(--white);
+}
+
+.carousel-container h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.carousel-container h4 {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.carousel-container h4 i {
+  -webkit-text-stroke: 1px;
+  font-size: 1rem;
+  padding: 2px 5px;
+  color: var(--white);
+  background-color: var(--black);
+  border-radius: 50%;
+}
+
+.carousels {
+  height: 18.7rem;
+  width: 98vw;
+  margin: 2rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.carousels .wrapper {
+  height: 16.8rem;
+  width: 12.4rem;
+  background-color: #f94716;
+  position: relative;
+  flex-shrink: 0;
+transition: .5s linear;
+  /* transform: translateX(calc(-98vw * 0)); */
+}
+
+.carousels .wrapper .carousel {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #f94716;
+  position: absolute;
+  inset: -5px;
+  background-color: var(--white);
+  padding: 10px;
+  text-align: center;
+}
+.carousel-img {
+  height: 10.3rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.head img {
+  height: 1.8rem;
+  width: 100%;
+}
+.carousel-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-footer {
+  padding-top: 3px;
+  line-height: 1.4;
+}
+
+.carousel-footer h5 {
+  font-weight: 600;
+}
+.carousel-footer h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.carousel-container .four-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.four-dots span {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background-color: #c9c7c7;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.four-dots span.active{
+	background-color: #757474;
+}
