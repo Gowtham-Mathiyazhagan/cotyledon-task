@@ -1,0 +1,45 @@
+.category-container{
+	margin: 2rem 3rem;
+	text-align: center;
+
+}
+
+.category-container .title{
+	font-size: 3.2rem;
+	color: var(--primary-red);
+	text-transform: uppercase;
+}
+
+.card-container{
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 38px;
+	
+}
+
+.card-container .card{
+	height: 16.25rem;
+	width: 10rem;
+	background: linear-gradient(to bottom, #f96516 50%,
+	var(--black)50%);
+	padding: 7px;
+	color: var(--white);
+	line-height: 1.4;
+	text-transform: capitalize;
+}
+
+.card .card-img img{
+	height:10.6rem;
+	width: 100%;
+
+}
+
+.card .detail h5{
+font-weight: 500;
+}
+.card .detail h1{
+	white-space: nowrap;
+	font-size: 1.3rem;
+}
