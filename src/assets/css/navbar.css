@@ -1,14 +1,21 @@
 .nav-container {
+  
   height: 5rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3.2rem;
+  padding: 0 3.2rem;
   overflow: hidden;
   font-size: 0.8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .3px;
+  background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .nav-container i{

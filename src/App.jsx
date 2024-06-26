@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Coupon from "./Components/Coupon.jsx";
 import Carousel from "./Components/Carousel.jsx";
 import Category from "./Components/Category.jsx";
+import Footer from "./Components/Footer.jsx";
 const App = () => {
   const [inputBg, setInputBg] = useState(false);
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Coupon/>
       <Carousel/>
       <Category/>
+      <Footer/>
     </main>
   );
 };
