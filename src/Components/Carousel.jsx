@@ -37,7 +37,7 @@ const Carousel = () => {
             <div
               key={i.toString()}
               className="wrapper"
-              style={{ transform: `translateX(calc(-98vw * ${count}))` }}
+              style={{ transform: `translateX(calc(-97.5vw * ${count}))` }}
             >
               <div className="carousel">
                 <header className="head">

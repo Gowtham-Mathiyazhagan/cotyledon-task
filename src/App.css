@@ -30,11 +30,7 @@ html {
   font-size: 16px; /*To use the rem. I gave the font size to parent element  */
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 /* ------------------------ *\ 
    root style
@@ -59,7 +55,10 @@ body {
 }
 
 main {
-  width:1250px
+  max-width:100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 sup {

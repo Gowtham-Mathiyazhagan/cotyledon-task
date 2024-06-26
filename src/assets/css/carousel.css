@@ -55,7 +55,6 @@ h4 {
   position: relative;
   flex-shrink: 0;
 transition: .5s linear;
-  /* transform: translateX(calc(-98vw * 0)); */
 }
 
 .carousels .wrapper .carousel {
