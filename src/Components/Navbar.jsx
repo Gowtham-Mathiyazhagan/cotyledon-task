@@ -61,3 +61,5 @@ const Navbar = ({ input, setInput }) => {
       </nav>
   );
 };
+
+export default Navbar

@@ -63,7 +63,7 @@ aside .pulse::before {
 
 .footer-container .box {
   height: 15.6rem;
- width: 90vw;
+ width:  90vw;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
