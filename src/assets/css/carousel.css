@@ -40,13 +40,12 @@ h4 {
 
 .carousels {
   height: 18.7rem;
-  width: 98vw;
+  width: 98.2vw;
   margin: 2rem 0 0;
   display: flex;
   align-items: center;
   gap: 10px;
   overflow: hidden;
-  padding-left: 10px;
 }
 
 .carousels .wrapper {
