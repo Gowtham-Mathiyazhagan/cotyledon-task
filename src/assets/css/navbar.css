@@ -31,7 +31,6 @@
 .nav-left .item {
   display: flex;
   align-items: center;
-  height: 5rem;
   max-width: 12.5rem;
   position: relative;
 }
@@ -43,7 +42,7 @@
 .nav-left .item:not(:nth-child(1)) ::before {
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   height: 2px;
   width: 100%;
   transform: scaleY(5);
@@ -94,7 +93,7 @@ position: relative;
 .nav-left .item:last-child span{
 	display: inline-block;
 	position: absolute;
-	top: 25px;
+	top: -5px;
 	right: -30px;
 	color: #fb7185;
 	font-size: 10px;
