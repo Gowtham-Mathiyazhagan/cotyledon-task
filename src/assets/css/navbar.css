@@ -73,10 +73,17 @@
   background-color: var(--primary-red);
 }
 
-.nav-left .item:not(:nth-child(1)) a:hover::before {
+.nav-left .item:nth-child(7) span::before {
+  background-color:transparent;
+}
+
+.nav-left .item:not(:nth-child(1)):hover ::before {
   transform: scaleY(1);
   opacity: 1;
 }
+
+
+
 
 /* last item > span style */
 
@@ -148,3 +155,5 @@ position: relative;
 .nav-right .item i{
 	-webkit-text-stroke: .1px;
 }
+
+ 
